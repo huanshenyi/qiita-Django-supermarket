@@ -16,11 +16,22 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path, include
 from django.views.static import serve
+from rest_framework.routers import DefaultRouter
+from rest_framework.documentation import include_docs_urls
+
 from api.settings import MEDIA_ROOT
 import xadmin
+from goods.views import GoodsListViewSet
+from goods.views import CategoryViewSet
+
+router = DefaultRouter()
+router.register(r'goods', GoodsListViewSet)
+router.register(r'categorys', CategoryViewSet, base_name="categorys")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
     path('xadmin/', xadmin.site.urls),
+    re_path('^', include(router.urls)),
+    path('docs/', include_docs_urls(title="shop")),
 ]

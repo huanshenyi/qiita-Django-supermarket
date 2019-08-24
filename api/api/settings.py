@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'trade',
     'user_operation',
     'crispy_forms',
-    'xadmin'
+    'xadmin',
+    'django_filters'
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,7 @@ AUTH_USER_MODEL = "users.UserProfile"
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.AutoSchema'
+}
