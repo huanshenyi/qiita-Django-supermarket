@@ -652,6 +652,10 @@
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/@types/events/download/@types/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
 
+"@types/fastclick@^1.0.28":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@types/fastclick/-/fastclick-1.0.30.tgz#17deac6b5ffb0b3709f5049faf24c9dc9b75e08a"
+
 "@types/glob@^7.1.1":
   version "7.1.1"
   resolved "https://registry.npm.taobao.org/@types/glob/download/@types/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
@@ -2720,6 +2724,10 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/fast-json-stable-stringify/download/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+
 fastparse@^1.1.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/fastparse/download/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
@@ -4657,8 +4665,8 @@ path-key@^3.0.0:
   resolved "https://registry.npm.taobao.org/path-key/download/path-key-3.1.0.tgz#99a10d870a803bdd5ee6f0470e58dfcd2f9a54d3"
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npm.taobao.org/path-parse/download/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
